@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+button{
+    padding: 8px 16px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+#first-div{
+    background-color: #c9c9c9;
+    height: 150px;
+    font-size: 24px;
+    color: red;
+    padding: 10px;
+    margin-top: 5px;
+}
+#second-div{
+    font-size: 22px;
+    padding: 10px;
+    margin-top: 5px;
+}
