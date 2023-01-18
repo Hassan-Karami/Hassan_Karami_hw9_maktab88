@@ -1,17 +1,12 @@
 let w=10;
 let l=10;
-$(function(){
-    $("button").on("click",function(){
-        if(l===100 && w===100){
-            alert("You Won");
-            window.location.reload();
-            
+$("button").on("click", function () {
+    if (w < 100) {
+      $("#load").animate({ width: `${(w += 10)}%` }, 200, () => {
+        if (w == 100) {
+          alert("You Won");
         }
-     
-        $("#load").css("width",`${l+=10}%`);
-        $("p").html(`${w+=10}%`);
-        
-       
-    })
-    
-})
+      });
+      $("p").html(`${(l += 10)}%`);
+    }
+  });
